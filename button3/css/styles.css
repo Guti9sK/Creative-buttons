@@ -28,7 +28,6 @@ a {
   transition: all 0.5s;
   color: #fff;
 }
-
 a::before {
   content: "";
   position: absolute;
@@ -42,7 +41,6 @@ a::before {
   transition: all 0.5s;
   transform-origin: top;
 }
-
 a::after {
   content: "";
   position: absolute;
@@ -56,17 +54,14 @@ a::after {
   transition: all 0.5s;
   transform-origin: bottom;
 }
-
 a:hover {
   color: #000;
 }
-
 a:hover::before {
   top: -6px;
   left: 0;
   transform: perspective(1000px) rotateX(75deg);
 }
-
 a:hover::after {
   top: 6px;
   left: 0;
